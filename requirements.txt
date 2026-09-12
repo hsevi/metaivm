@@ -1,0 +1,20 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+openml>=0.14
+hdbscan>=0.8.33
+xgboost>=2.0
+pyyaml>=6.0
+joblib>=1.3
+torch>=2.0
+torch_geometric>=2.4
+matplotlib>=3.7
+seaborn>=0.12
+# Added in the revision (new baselines and graph community experiments)
+pymfe>=0.4.2           # PoAC-style baseline: Lorena-2019 dataset meta-features
+s_dbw>=0.4             # S_Dbw density-based CVI baseline
+networkx>=3.0          # Graph community detection (Louvain, Leiden, spectral)
+python-igraph>=0.10    # igraph backend for community detection
+python-louvain>=0.16   # Louvain modularity optimization
+leidenalg>=0.10        # Leiden community detection

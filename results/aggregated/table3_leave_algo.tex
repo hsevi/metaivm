@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-algorithm-out evaluation. Mean $\pm$ std over 5 seeds.}
+\label{tab:leave_algo}
+\begin{tabular}{lccc}
+\toprule
+Held-out Algo & Regret (with) & Regret (without) & $\Delta$ \\
+\midrule
+AgglomerativeClustering & $0.044 \pm 0.006$ & $0.048 \pm 0.011$ & $+0.004$ \\
+DBSCAN & $0.020 \pm 0.005$ & $0.043 \pm 0.008$ & $+0.023$ \\
+GaussianMixture & $0.044 \pm 0.006$ & $0.047 \pm 0.013$ & $+0.003$ \\
+HDBSCAN & $0.023 \pm 0.006$ & $0.022 \pm 0.003$ & $-0.001$ \\
+KMeans & $0.043 \pm 0.010$ & $0.047 \pm 0.011$ & $+0.004$ \\
+SpectralClustering & $0.053 \pm 0.023$ & $0.061 \pm 0.029$ & $+0.008$ \\
+\bottomrule
+\end{tabular}
+\end{table}

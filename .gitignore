@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ---- OS / editor ----
+.DS_Store
+.claude/
+
+# ---- Large raw / intermediate data (regenerate via the from-scratch pipeline) ----
+# The shipped feature tables under data/features/ ARE committed; everything below is not.
+data/raw/
+data/processed/
+data/clustering_runs/
+data/pyg_cache/
+
+# ---- Per-seed experiment scratch (aggregated results under results/aggregated/ ARE committed) ----
+results/seed_*/
+results/figures/
+results/tables/
+
+# ---- Exploratory results for follow-up work (not part of this paper) ----
+results/aggregated/phi_stage*
+results/aggregated/phi_umap_manifold_results.csv
+results/aggregated/tier0*
+results/aggregated/layer1_probe_*
+results/aggregated/clusterpfn_20k_results.csv
+results/aggregated/poc_clusterpfn.csv
+results/aggregated/nn_rate_diagnostic.csv
+
+# ---- Local MetaIVM model cache (from_pretrained retrains on first call) ----
+models/*.joblib
+models/*.pkl
+models/*.pt
+
+# ---- Revision / internal documents (not part of the public release) ----
+paper/author_response*.md
+paper/CAMERA_READY_NOTE_TO_AE.md
+_local_only/
+
+# ---- Build artifacts ----
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.toc
+metaivm_supplementary*.zip

@@ -1,0 +1,31 @@
+# Populated by src/data/dataset_collection.py
+# Contains OpenML dataset IDs and synthetic dataset specs
+
+openml:
+  # OpenML-CC18 benchmark suite ID
+  suite_id: 99
+  # Additional curated dataset IDs (classification datasets good for clustering)
+  extra_ids:
+    - 61    # iris
+    - 54    # vehicle
+    - 181   # yeast
+    - 1462  # banknote-authentication
+    - 1494  # qsar-biodeg
+    - 1510  # wdbc
+    - 40994 # Climate Model Simulation Crashes
+    - 40983 # Wilt
+    - 40975 # car
+    - 40984 # segment
+    - 23381 # dresses-sales
+    - 40668 # connect-4
+  filters:
+    min_samples: 200
+    max_samples: 50000
+    min_features: 2
+    max_features: 500
+    min_classes: 2
+    max_classes: 30
+
+synthetic:
+  seed: 42
+  # Specs defined in dataset_collection.py

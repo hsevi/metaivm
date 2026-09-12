@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Feature set ablation (XGBoost model). Mean $\pm$ std over 5 seeds.}
+\label{tab:features}
+\begin{tabular}{lccc}
+\toprule
+Feature Set & Regret ($\downarrow$) & NDCG@5 ($\uparrow$) & Spearman ($\uparrow$) \\
+\midrule
+algo\_hyperparams\_only & $0.150 \pm 0.024$ & $0.662 \pm 0.030$ & $0.477 \pm 0.024$ \\
+all\_features & $0.071 \pm 0.006$ & $0.743 \pm 0.064$ & $0.742 \pm 0.045$ \\
+dataset\_desc\_only & $0.303 \pm 0.053$ & $0.536 \pm 0.033$ & $nan \pm 0.000$ \\
+ivm\_only & $0.188 \pm 0.039$ & $0.637 \pm 0.037$ & $0.614 \pm 0.057$ \\
+ivm\_plus\_partition & $0.089 \pm 0.021$ & $0.728 \pm 0.075$ & $0.728 \pm 0.062$ \\
+partition\_algo & $0.087 \pm 0.018$ & $0.743 \pm 0.034$ & $0.722 \pm 0.049$ \\
+partition\_dataset & $0.080 \pm 0.014$ & $0.743 \pm 0.044$ & $0.754 \pm 0.027$ \\
+partition\_only & $0.092 \pm 0.015$ & $0.748 \pm 0.040$ & $0.730 \pm 0.044$ \\
+partition\_x & $0.082 \pm 0.018$ & $0.758 \pm 0.045$ & $0.747 \pm 0.043$ \\
+partition\_x\_graph & $0.071 \pm 0.008$ & $0.778 \pm 0.038$ & $0.748 \pm 0.042$ \\
+run\_feats\_only & $0.150 \pm 0.024$ & $0.662 \pm 0.030$ & $0.477 \pm 0.024$ \\
+\bottomrule
+\end{tabular}
+\end{table}

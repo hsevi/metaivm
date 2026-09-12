@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Spearman correlation between predicted scores and true AMI, averaged across test datasets. Compares raw IVM rankers with the learned model's predictions.}
+\label{tab:correlation}
+\begin{tabular}{lc}
+\toprule
+Score Source & Mean Spearman $\rho$ \\
+\midrule
+predicted & 0.755 +/- 0.253 \\
+Silhouette & 0.062 +/- 0.552 \\
+Calinski-Harabasz & 0.395 +/- 0.416 \\
+Davies-Bouldin (neg) & 0.011 +/- 0.528 \\
+CH Adjusted (Jeon) & 0.269 +/- 0.435 \\
+\bottomrule
+\end{tabular}
+\end{table}

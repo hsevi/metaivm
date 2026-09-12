@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Main comparison of clustering evaluation methods. Regret = best\_true\_AMI $-$ true\_AMI of top-1 predicted. Mean $\pm$ std over 5 seeds.}
+\label{tab:main}
+\begin{tabular}{lcccc}
+\toprule
+Method & Regret ($\downarrow$) & $\epsilon$-success@0.01 ($\uparrow$) & NDCG@5 ($\uparrow$) & Spearman ($\uparrow$) \\
+\midrule
+CH Adjusted (Jeon) & $0.258 \pm 0.037$ & $0.148 \pm 0.050$ & $0.518 \pm 0.069$ & $0.530 \pm 0.029$ \\
+Calinski-Harabasz & $0.217 \pm 0.050$ & $0.187 \pm 0.029$ & $0.607 \pm 0.013$ & $0.604 \pm 0.024$ \\
+Davies-Bouldin & $0.345 \pm 0.055$ & $0.096 \pm 0.019$ & $0.405 \pm 0.055$ & $0.399 \pm 0.061$ \\
+Global best config & $0.241 \pm 0.098$ & $0.113 \pm 0.066$ & $0.554 \pm 0.033$ & $0.053 \pm 0.038$ \\
+MLP (all features) & $0.072 \pm 0.007$ & $0.322 \pm 0.062$ & $0.737 \pm 0.071$ & $0.685 \pm 0.057$ \\
+Random & $0.177 \pm 0.020$ & $0.083 \pm 0.024$ & $0.467 \pm 0.016$ & $0.019 \pm 0.013$ \\
+Ridge (all features) & $0.088 \pm 0.024$ & $0.330 \pm 0.090$ & $0.743 \pm 0.039$ & $0.662 \pm 0.042$ \\
+Silhouette & $0.342 \pm 0.055$ & $0.078 \pm 0.033$ & $0.425 \pm 0.049$ & $0.433 \pm 0.056$ \\
+XGBoost (all features) & \mathbf{0.071 \pm 0.006} & $0.365 \pm 0.042$ & $0.743 \pm 0.064$ & $0.742 \pm 0.045$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,6 @@
+seed,regret,n_cvis,cvis_used
+0,0.21351414390072118,4,"['silhouette', 'calinski_harabasz', 'davies_bouldin', 'dunn']"
+1,0.21212766257024887,4,"['silhouette', 'calinski_harabasz', 'davies_bouldin', 'dunn']"
+2,0.21787272861510606,4,"['silhouette', 'calinski_harabasz', 'davies_bouldin', 'dunn']"
+3,0.19035929294408344,4,"['silhouette', 'calinski_harabasz', 'davies_bouldin', 'dunn']"
+4,0.14319563130849638,4,"['silhouette', 'calinski_harabasz', 'davies_bouldin', 'dunn']"

@@ -1,0 +1,227 @@
+dataset_id,source,n_samples,n_features,n_classes,description
+openml_3,openml,3196,36,2,kr-vs-kp
+openml_6,openml,20000,16,26,letter
+openml_11,openml,625,4,3,balance-scale
+openml_12,openml,2000,216,10,mfeat-factors
+openml_14,openml,2000,76,10,mfeat-fourier
+openml_15,openml,699,9,2,breast-w
+openml_16,openml,2000,64,10,mfeat-karhunen
+openml_18,openml,2000,6,10,mfeat-morphological
+openml_22,openml,2000,47,10,mfeat-zernike
+openml_23,openml,1473,9,3,cmc
+openml_28,openml,5620,64,10,optdigits
+openml_29,openml,690,15,2,credit-approval
+openml_31,openml,1000,20,2,credit-g
+openml_32,openml,10992,16,10,pendigits
+openml_37,openml,768,8,2,diabetes
+openml_38,openml,3772,29,2,sick
+openml_44,openml,4601,57,2,spambase
+openml_46,openml,3190,60,3,splice
+openml_50,openml,958,9,2,tic-tac-toe
+openml_54,openml,846,18,4,vehicle
+openml_151,openml,45312,8,2,electricity
+openml_181,openml,1484,8,10,yeast
+openml_182,openml,6430,36,6,satimage
+openml_188,openml,736,19,5,eucalyptus
+openml_307,openml,990,12,11,vowel
+openml_458,openml,841,70,4,analcatdata_authorship
+openml_469,openml,797,4,6,analcatdata_dmft
+openml_1049,openml,1458,37,2,pc4
+openml_1050,openml,1563,37,2,pc3
+openml_1053,openml,10885,21,2,jm1
+openml_1063,openml,522,21,2,kc2
+openml_1067,openml,2109,21,2,kc1
+openml_1068,openml,1109,21,2,pc1
+openml_1461,openml,45211,16,2,bank-marketing
+openml_1462,openml,1372,4,2,banknote-authentication
+openml_1464,openml,748,4,2,blood-transfusion-service-center
+openml_1475,openml,6118,51,6,first-order-theorem-proving
+openml_1480,openml,583,10,2,ilpd
+openml_1485,openml,2600,500,2,madelon
+openml_1486,openml,34465,118,2,nomao
+openml_1487,openml,2534,72,2,ozone-level-8hr
+openml_1489,openml,5404,5,2,phoneme
+openml_1494,openml,1055,41,2,qsar-biodeg
+openml_1497,openml,5456,24,4,wall-robot-navigation
+openml_1501,openml,1593,256,10,semeion
+openml_1510,openml,569,30,2,wdbc
+openml_1590,openml,48842,14,2,adult
+openml_4534,openml,11055,30,2,PhishingWebsites
+openml_4538,openml,9873,32,5,GesturePhaseSegmentationProcessed
+openml_6332,openml,540,37,2,cylinder-bands
+openml_23381,openml,500,12,2,dresses-sales
+openml_40499,openml,5500,40,11,texture
+openml_40670,openml,3186,180,3,dna
+openml_40701,openml,5000,20,2,churn
+openml_40966,openml,1080,77,8,MiceProtein
+openml_40975,openml,1728,6,4,car
+openml_40979,openml,2000,240,10,mfeat-pixel
+openml_40982,openml,1941,27,7,steel-plates-fault
+openml_40983,openml,4839,5,2,wilt
+openml_40984,openml,2310,16,7,segment
+openml_40994,openml,540,18,2,climate-model-simulation-crashes
+openml_41027,openml,44819,6,3,jungle_chess_2pcs_raw_endgame_complete
+synth_blobs_easy_2d,synthetic,500,2,3,blobs_easy_2d
+synth_blobs_overlap_2d,synthetic,500,2,5,blobs_overlap_2d
+synth_blobs_many_2d,synthetic,500,2,10,blobs_many_2d
+synth_blobs_easy_10d,synthetic,1000,10,3,blobs_easy_10d
+synth_blobs_overlap_10d,synthetic,1000,10,7,blobs_overlap_10d
+synth_blobs_highd_50,synthetic,1000,50,5,blobs_highd_50
+synth_blobs_highd_100,synthetic,2000,100,10,blobs_highd_100
+synth_blobs_large_2d,synthetic,5000,2,15,blobs_large_2d
+synth_blobs_large_20d,synthetic,5000,20,20,blobs_large_20d
+synth_blobs_high_overlap,synthetic,300,2,3,blobs_high_overlap
+synth_blobs_well_separated,synthetic,500,5,4,blobs_well_separated
+synth_blobs_varying_std,synthetic,1000,2,6,blobs_varying_std
+synth_moons_noise0.05,synthetic,1000,2,2,moons_noise0.05
+synth_moons_noise0.15,synthetic,1000,2,2,moons_noise0.15
+synth_moons_noise0.30,synthetic,1000,2,2,moons_noise0.30
+synth_circles_n0.05_f0.5,synthetic,1000,2,2,circles_n0.05_f0.5
+synth_circles_n0.10_f0.3,synthetic,1000,2,2,circles_n0.10_f0.3
+synth_circles_n0.15_f0.7,synthetic,1000,2,2,circles_n0.15_f0.7
+synth_imb_1_1_5_2d,synthetic,700,2,3,imb_1_1_5_2d
+synth_imb_extreme_5d,synthetic,1750,5,4,imb_extreme_5d
+synth_imb_one_large_10d,synthetic,1400,10,5,imb_one_large_10d
+synth_imb_many_small_3d,synthetic,590,3,4,imb_many_small_3d
+synth_noisy_10pct,synthetic,500,2,4,noisy_10pct
+synth_noisy_30pct,synthetic,500,2,4,noisy_30pct
+synth_noisy_20pct_5d,synthetic,1000,5,6,noisy_20pct_5d
+synth_subspace_2of20,synthetic,500,20,3,subspace_2of20
+synth_subspace_5of50,synthetic,1000,50,5,subspace_5of50
+synth_elongated_2d,synthetic,1000,2,3,elongated_2d
+synth_elongated_10d,synthetic,1000,10,5,elongated_10d
+synth_spirals_2arms_n0.10,synthetic,800,2,2,spirals_2arms_n0.10
+synth_spirals_3arms_n0.05,synthetic,798,2,3,spirals_3arms_n0.05
+synth_spirals_3arms_n0.20,synthetic,798,2,3,spirals_3arms_n0.20
+synth_varying_density_2d,synthetic,1630,2,5,varying_density_2d
+synth_varying_density_5d,synthetic,896,5,5,varying_density_5d
+synth_varying_density_15d,synthetic,1390,15,5,varying_density_15d
+synth_nested_rings_3,synthetic,900,2,3,nested_rings_3
+synth_nested_rings_5,synthetic,1500,2,5,nested_rings_5
+synth_blobs_20d_15k,synthetic,2000,20,15,blobs_20d_15k
+synth_blobs_30d_10k,synthetic,2000,30,10,blobs_30d_10k
+synth_blobs_50d_20k,synthetic,2000,50,20,blobs_50d_20k
+synth_aniso_2d_4k,synthetic,800,2,4,aniso_2d_4k
+synth_aniso_5d_3k,synthetic,600,5,3,aniso_5d_3k
+synth_aniso_10d_6k,synthetic,1200,10,6,aniso_10d_6k
+synth_moons_plus_blob,synthetic,600,2,3,moons_plus_blob
+synth_uniform_noise_2d,synthetic,500,2,3,uniform_noise_2d
+synth_uniform_noise_10d,synthetic,500,10,3,uniform_noise_10d
+synth_blobs_5d_k2,synthetic,500,5,2,blobs_5d_k2
+synth_blobs_5d_k4,synthetic,500,5,4,blobs_5d_k4
+synth_blobs_5d_k8,synthetic,800,5,8,blobs_5d_k8
+synth_blobs_5d_k12,synthetic,1200,5,12,blobs_5d_k12
+synth_blobs_5d_k20,synthetic,2000,5,20,blobs_5d_k20
+synth_elongated_aspect5_3d,synthetic,800,3,4,elongated_aspect5_3d
+synth_elongated_aspect10_3d,synthetic,800,3,4,elongated_aspect10_3d
+synth_elongated_aspect20_3d,synthetic,800,3,4,elongated_aspect20_3d
+openml_61,openml,150,4,3,iris
+openml_1471,openml,14980,14,2,eeg-eye-state
+openml_1476,openml,13910,128,6,gas-drift
+openml_1478,openml,10299,50,6,har
+openml_300,openml,7797,50,26,isolet
+openml_1466,openml,2126,35,10,cardiotocography
+openml_1596,openml,20000,54,7,covertype
+openml_40927,openml,20000,50,10,CIFAR_10
+openml_40668,openml,20000,42,3,connect-4
+openml_1169,openml,20000,7,2,airlines
+openml_36,openml,2310,19,7,segment
+openml_60,openml,5000,40,3,waveform-5000
+openml_1504,openml,1941,33,2,steel-plates-fault
+openml_40496,openml,500,7,10,LED-display-domain-7digit
+openml_40900,openml,5100,36,2,Satellite
+openml_40536,openml,8378,120,2,SpeedDating
+openml_23517,openml,20000,21,2,numerai28.6
+openml_4135,openml,20000,9,2,Amazon_employee_access
+openml_1038,openml,3468,50,2,gina_agnostic
+openml_1040,openml,14395,108,2,sylva_prior
+openml_1120,openml,19020,10,2,MagicTelescope
+openml_41143,openml,2984,144,2,jasmine
+openml_41147,openml,20000,78,2,albert
+openml_1457,openml,1500,50,50,amazon-commerce-reviews
+openml_375,openml,9961,14,9,JapaneseVowels
+openml_1468,openml,1080,50,9,cnae-9
+openml_679,openml,1024,2,4,rmftsa_sleepdata
+openml_40685,openml,20000,9,7,shuttle
+openml_1515,openml,571,50,20,micro-mass
+openml_41026,openml,7000,50,2,gisette
+openml_40478,openml,2800,26,5,thyroid-dis
+openml_1558,openml,4521,16,2,bank-marketing
+img_mnist_digits_5k,image,5000,50,10,MNIST digits 5k PCA-50
+img_mnist_digits_2k,image,2000,50,10,MNIST digits 2k PCA-50
+img_fashion_mnist_5k,image,5000,50,10,Fashion-MNIST 5k PCA-50
+img_fashion_mnist_2k,image,2000,50,10,Fashion-MNIST 2k PCA-50
+text_20ng_all,text,5000,50,20,20NG all categories TF-IDF SVD-50
+text_20ng_science,text,2000,50,4,20NG science TF-IDF SVD-50
+text_20ng_politics,text,2000,50,4,20NG politics+religion TF-IDF SVD-50
+text_20ng_comp,text,2000,50,5,20NG computers TF-IDF SVD-50
+text_20ng_rec,text,2000,50,4,20NG recreation TF-IDF SVD-50
+synth_grid_d2_k3_lowoverlap,synthetic,600,2,3,grid d=2 k=3 overlap=low
+synth_grid_d2_k3_medoverlap,synthetic,600,2,3,grid d=2 k=3 overlap=med
+synth_grid_d2_k3_highoverlap,synthetic,600,2,3,grid d=2 k=3 overlap=high
+synth_grid_d2_k6_lowoverlap,synthetic,1200,2,6,grid d=2 k=6 overlap=low
+synth_grid_d2_k6_medoverlap,synthetic,1200,2,6,grid d=2 k=6 overlap=med
+synth_grid_d2_k6_highoverlap,synthetic,1200,2,6,grid d=2 k=6 overlap=high
+synth_grid_d2_k10_lowoverlap,synthetic,2000,2,10,grid d=2 k=10 overlap=low
+synth_grid_d2_k10_medoverlap,synthetic,2000,2,10,grid d=2 k=10 overlap=med
+synth_grid_d2_k10_highoverlap,synthetic,2000,2,10,grid d=2 k=10 overlap=high
+synth_grid_d5_k3_lowoverlap,synthetic,600,5,3,grid d=5 k=3 overlap=low
+synth_grid_d5_k3_medoverlap,synthetic,600,5,3,grid d=5 k=3 overlap=med
+synth_grid_d5_k3_highoverlap,synthetic,600,5,3,grid d=5 k=3 overlap=high
+synth_grid_d5_k6_lowoverlap,synthetic,1200,5,6,grid d=5 k=6 overlap=low
+synth_grid_d5_k6_medoverlap,synthetic,1200,5,6,grid d=5 k=6 overlap=med
+synth_grid_d5_k6_highoverlap,synthetic,1200,5,6,grid d=5 k=6 overlap=high
+synth_grid_d5_k10_lowoverlap,synthetic,2000,5,10,grid d=5 k=10 overlap=low
+synth_grid_d5_k10_medoverlap,synthetic,2000,5,10,grid d=5 k=10 overlap=med
+synth_grid_d5_k10_highoverlap,synthetic,2000,5,10,grid d=5 k=10 overlap=high
+synth_grid_d15_k3_lowoverlap,synthetic,600,15,3,grid d=15 k=3 overlap=low
+synth_grid_d15_k3_medoverlap,synthetic,600,15,3,grid d=15 k=3 overlap=med
+synth_grid_d15_k3_highoverlap,synthetic,600,15,3,grid d=15 k=3 overlap=high
+synth_grid_d15_k6_lowoverlap,synthetic,1200,15,6,grid d=15 k=6 overlap=low
+synth_grid_d15_k6_medoverlap,synthetic,1200,15,6,grid d=15 k=6 overlap=med
+synth_grid_d15_k6_highoverlap,synthetic,1200,15,6,grid d=15 k=6 overlap=high
+synth_grid_d15_k10_lowoverlap,synthetic,2000,15,10,grid d=15 k=10 overlap=low
+synth_grid_d15_k10_medoverlap,synthetic,2000,15,10,grid d=15 k=10 overlap=med
+synth_grid_d15_k10_highoverlap,synthetic,2000,15,10,grid d=15 k=10 overlap=high
+synth_grid_d30_k3_lowoverlap,synthetic,600,30,3,grid d=30 k=3 overlap=low
+synth_grid_d30_k3_medoverlap,synthetic,600,30,3,grid d=30 k=3 overlap=med
+synth_grid_d30_k3_highoverlap,synthetic,600,30,3,grid d=30 k=3 overlap=high
+synth_grid_d30_k6_lowoverlap,synthetic,1200,30,6,grid d=30 k=6 overlap=low
+synth_grid_d30_k6_medoverlap,synthetic,1200,30,6,grid d=30 k=6 overlap=med
+synth_grid_d30_k6_highoverlap,synthetic,1200,30,6,grid d=30 k=6 overlap=high
+synth_grid_d30_k10_lowoverlap,synthetic,2000,30,10,grid d=30 k=10 overlap=low
+synth_grid_d30_k10_medoverlap,synthetic,2000,30,10,grid d=30 k=10 overlap=med
+synth_grid_d30_k10_highoverlap,synthetic,2000,30,10,grid d=30 k=10 overlap=high
+synth_ellipsoidal_d3_k3,synthetic,600,3,3,ellipsoidal d=3 k=3
+synth_ellipsoidal_d3_k5,synthetic,1000,3,5,ellipsoidal d=3 k=5
+synth_ellipsoidal_d3_k8,synthetic,1600,3,8,ellipsoidal d=3 k=8
+synth_ellipsoidal_d10_k3,synthetic,600,10,3,ellipsoidal d=10 k=3
+synth_ellipsoidal_d10_k5,synthetic,1000,10,5,ellipsoidal d=10 k=5
+synth_ellipsoidal_d10_k8,synthetic,1600,10,8,ellipsoidal d=10 k=8
+synth_ellipsoidal_d20_k3,synthetic,600,20,3,ellipsoidal d=20 k=3
+synth_ellipsoidal_d20_k5,synthetic,1000,20,5,ellipsoidal d=20 k=5
+synth_ellipsoidal_d20_k8,synthetic,1600,20,8,ellipsoidal d=20 k=8
+synth_swiss_roll_k3,synthetic,1500,3,3,swiss roll 3 clusters
+synth_swiss_roll_k5,synthetic,1500,3,5,swiss roll 5 clusters
+synth_s_curve_k3,synthetic,1500,3,3,s-curve 3 clusters
+synth_s_curve_k4,synthetic,1500,3,4,s-curve 4 clusters
+synth_imb_mild_d5,synthetic,1000,5,3,imbalanced mild d=5
+synth_imb_mild_d15,synthetic,1000,15,3,imbalanced mild d=15
+synth_imb_moderate_d5,synthetic,1000,5,3,imbalanced moderate d=5
+synth_imb_moderate_d15,synthetic,1000,15,3,imbalanced moderate d=15
+synth_imb_extreme_d5,synthetic,1000,5,4,imbalanced extreme d=5
+synth_imb_extreme_d15,synthetic,1000,15,4,imbalanced extreme d=15
+synth_imb_many_small_d5,synthetic,950,5,6,imbalanced many_small d=5
+synth_imb_many_small_d15,synthetic,950,15,6,imbalanced many_small d=15
+synth_noisy_5pct_d2,synthetic,1000,2,5,noisy 5% d=2
+synth_noisy_5pct_d10,synthetic,1000,10,5,noisy 5% d=10
+synth_noisy_15pct_d2,synthetic,1000,2,5,noisy 15% d=2
+synth_noisy_15pct_d10,synthetic,1000,10,5,noisy 15% d=10
+synth_noisy_25pct_d2,synthetic,1000,2,5,noisy 25% d=2
+synth_noisy_25pct_d10,synthetic,1000,10,5,noisy 25% d=10
+synth_subspace_2of50,synthetic,1000,50,4,subspace 2/50
+synth_subspace_3of100,synthetic,1000,100,4,subspace 3/100
+synth_subspace_5of200,synthetic,1000,200,4,subspace 5/200
+synth_mixed_shapes_2d,synthetic,900,2,5,mixed shapes 2D
+synth_density_varying_d2,synthetic,1000,2,5,density varying d=2
+synth_density_varying_d5,synthetic,1000,5,5,density varying d=5

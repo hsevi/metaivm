@@ -1,0 +1,23 @@
+KMeans:
+  n_clusters: [2, 3, 5, 7, 10, 15, 20, 30]
+  n_init: [10]
+
+GaussianMixture:
+  n_components: [2, 3, 5, 7, 10, 15, 20]
+  covariance_type: [full, diag]
+
+SpectralClustering:
+  n_clusters: [2, 3, 5, 7, 10, 15]
+  affinity: [rbf, nearest_neighbors]
+
+DBSCAN:
+  eps: [0.1, 0.3, 0.5, 1.0, 2.0, 5.0]
+  min_samples: [3, 5, 10, 20]
+
+HDBSCAN:
+  min_cluster_size: [5, 10, 20, 50]
+  min_samples: [1, 5, 10]
+
+AgglomerativeClustering:
+  n_clusters: [2, 3, 5, 7, 10, 15, 20]
+  linkage: [ward, complete, average]

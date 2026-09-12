@@ -1,0 +1,5 @@
+comparison,n_datasets,xgb_wins,baseline_wins,ties,mean_diff,wilcoxon_W,p_value
+XGBoost vs CH,158,110,39,9,0.1378,9365,4.07e-13
+XGBoost vs Silhouette,158,139,13,6,0.2763,11338,1.48e-24
+XGBoost vs DB,158,137,15,6,0.2813,11313,2.37e-24
+XGBoost vs Ridge,158,74,69,15,0.0506,6147,0.022

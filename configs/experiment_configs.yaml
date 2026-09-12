@@ -1,0 +1,36 @@
+# Experiment configuration — Phase 3+
+splits:
+  n_splits: 5
+  train_frac: 0.6
+  val_frac: 0.2
+  test_frac: 0.2
+  seeds: [0, 1, 2, 3, 4]
+
+models:
+  ridge:
+    alpha: [0.01, 0.1, 1.0, 10.0, 100.0]
+  mlp:
+    hidden_layers: [[256, 128], [256, 128, 64]]
+    lr: [0.001, 0.0005]
+    epochs: 500
+    patience: 20
+  xgboost:
+    max_depth: [3, 5, 7]
+    n_estimators: [100, 300, 500]
+    learning_rate: [0.01, 0.05, 0.1]
+
+feature_sets:
+  - run_feats_only
+  - dataset_desc_only
+  - partition_only
+  - partition_algo
+  - partition_dataset
+  - partition_x
+  - partition_x_graph
+  - ivm_only
+  - ivm_plus_partition
+  - all_features
+
+stability:
+  n_perturbations: 20
+  subsample_fraction: 0.8
