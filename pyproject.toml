@@ -1,0 +1,47 @@
+[project]
+name = "metaivm"
+version = "1.0.0"
+description = "MetaIVM: meta-learned surrogates for label-free clustering model selection (TMLR 2026)"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Harry Sevi", email = "hksv808@gmail.com" }]
+keywords = ["clustering", "model-selection", "meta-learning", "cluster-validity", "unsupervised"]
+
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "openml>=0.14",
+    "hdbscan>=0.8.33",
+    "xgboost>=2.0",
+    "pyyaml>=6.0",
+    "joblib>=1.3",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    # Revision-added baselines and the graph community extension
+    "pymfe>=0.4.2",
+    "s-dbw>=0.4",
+    "networkx>=3.0",
+    "python-igraph>=0.10",
+    "python-louvain>=0.16",
+    "leidenalg>=0.10",
+]
+
+[project.optional-dependencies]
+# The GNN zero-engineering baseline (Table 22) and attributed-graph experiment
+# (Table 21) need PyTorch; kept optional so the core install stays light.
+torch = [
+    "torch>=2.0",
+    "torch-geometric>=2.4",
+]
+
+[project.urls]
+Paper = "https://openreview.net/forum?id=5r3WODcU47"
+Repository = "https://github.com/hsevi/metaivm"
+
+# This repo is run from its root (e.g. `uv run python -m src.experiments.exp1_main_table`),
+# not installed as an importable wheel, so uv manages the environment without building it.
+[tool.uv]
+package = false

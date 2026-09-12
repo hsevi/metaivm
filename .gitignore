@@ -50,3 +50,6 @@ paper/*.blg
 paper/*.synctex.gz
 paper/*.toc
 metaivm_supplementary*.zip
+
+# ---- uv / virtualenv ----
+.venv/

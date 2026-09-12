@@ -77,13 +77,25 @@ paper/                      # LaTeX source and compiled PDF of the paper
 
 ## Setup
 
+With [uv](https://docs.astral.sh/uv/) (recommended — reproducible via the committed `uv.lock`):
+
+```bash
+uv sync                 # core environment
+uv sync --extra torch   # + PyTorch, for the GNN / attributed-graph experiments
+uv run python -m src.experiments.exp1_main_table   # run inside the managed env
+```
+
+Or with plain pip:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 Tested with Python 3.10-3.12. The revision added new dependencies for the density-based
 CVI baselines (`s_dbw`), PoAC dataset meta-features (`pymfe`), and the graph community
-detection extension (`networkx`, `python-igraph`, `python-louvain`, `leidenalg`).
+detection extension (`networkx`, `python-igraph`, `python-louvain`, `leidenalg`). PyTorch
+(`torch`, `torch-geometric`) is an optional extra needed only for the GNN zero-engineering
+baseline (Table 22) and the attributed-graph experiment (Table 21).
 
 ## Reproducing the main results
 
