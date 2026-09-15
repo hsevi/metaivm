@@ -36,7 +36,10 @@ rm -f "$OUT"
 # --- Files/dirs to include (whitelist approach) ---
 INCLUDE=(
     "README.md"
+    "LICENSE"
     "requirements.txt"
+    "pyproject.toml"
+    "uv.lock"
     "configs/"
     "src/"
     "scripts/"
